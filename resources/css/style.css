@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+}
+
+#all-content {
+   
+}
+
+
+/* Header Section */
+
+
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 7;
+    height: 64px;
+    background-color: white;
+    display: inline-flex;
+}
+
+
+#logo-container {
+    display: flex;
+}
+
+nav span {
+    display: inline-block;
+    padding: 8px;
+}
+
+/* Main Section */
+
+.main {
+    width: 100%;
+    position: relative;
+    top: 64px;
+    z-index: 1;
+}
+
+#first-container {
+    background-color: lightgrey;
+    display: inline-flex;
+}
+
+#first-container img {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+#first-container section {
+    margin: 200px 0;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+}
