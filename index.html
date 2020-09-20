@@ -4,43 +4,149 @@
 <head>
   <title>Colmar Academy</title>
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
 </head>
 
 <body>
 
-    <div id="all-content">
+    
 
-        <!-- Header -->
+    <!-- Header -->
 
-        <header>
+    <header>
+        <div class="content">
             <div id="logo-container">
                 <img src="./resources/images/ic-logo.svg" />
                 <h3>COLMARACADEMY</h3>
             </div>
             <nav>
-                <span><a href="#">On campus</a></span>
-                <span><a href="#">Online</a></span>
-                <span><a href="#">For companies</a></span>
-                <span><a href="#">Sign in</a></span>
+                <ul>
+                    <li><a href="#">On campus</a></li>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">For companies</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
             </nav>
-    
-        </header>
+        </div>
+    </header>
 
-        <!-- Main content container-->
+    <!-- Main content container-->
 
-        <div class="main">
-            <div id="first-container">
-                <img src="resources/images/banner.jpg">
-                <section>
-                    <h1>Learn something new everyday</h1>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                    <button>Start here</button>
-                </section>
+    <div class="main">
+        <div id="first-container">
+            <img id="banner-img" src="resources/images/banner.jpg">
+            <section>
+                <h1>Learn something new everyday</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <button>Start here</button>
+            </section>
+        </div>
+
+        <div id="second-container">
+            <div id="second-container-left">
+                <img src="resources/images/information-main.jpg">
+                <h1>It doesn't hurt to keep practicing</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Och lite mer text här</p>
             </div>
+            <div id="second-container-right">
+                <div class="info-ruta">
+                    <img src="resources/images/information-orientation.jpg" />
+                    <h4>Orientation date</h4>
+                </div>
+                <div class="info-ruta">
+                    <img src="resources/images/information-campus.jpg" />
+                    <h4>Our campus</h4>
+                </div>
+                <div class="info-ruta">
+                    <img src="resources/images/information-guest-lecture.jpg" />
+                    <h4>Our guest lecture</h4>
+                </div>
 
-        </div> 
+            </div>
+        </div>
 
-    </div>
+        <div id="third-container">
+            <h1 class="center">Start learning</h1>
+            <div id="third-container-inner-divs">
+                <div class="learning-container">
+                    <img src="resources/images/course-software.jpg">
+                    <h4>Software engineering</h4>
+                    <span>Courses</span>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+                <div class="learning-container">
+                    <img src="resources/images/course-computer-art.jpg">
+                    <h4>Computer art</h4>
+                    <span>Courses</span>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+                <div class="learning-container">
+                    <img src="resources/images/course-design.jpg">
+                    <h4>Design</h4>
+                    <span>Courses</span>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+                <div class="learning-container">
+                    <img src="resources/images/course-data.jpg">
+                    <h4>Data</h4>
+                    <span>Courses</span>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+                <div class="learning-container">
+                    <img src="resources/images/course-business.jpg">
+                    <h4>Business</h4>
+                    <span>Courses</span>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+                <div class="learning-container">
+                    <img src="resources/images/course-marketing.jpg">
+                    <h4>Marketing</h4>
+                    <span>Courses</span>
+                    <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="fourth-container">
+            <h1 class="center">Thesis exhibit</h1>
+            <div id="fourth-container-inner">
+                <div id="fourth-container-left">
+                    <video width="100%" controls>
+                        <source src="resources/videos/thesis.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="fourth-container-right">
+                    <div class="info-ruta" id="info-ruta-grey">
+                        <img src="resources/images/thesis-fisma.jpg" />
+                        <h4>Fisma: Design and Prototype</h4>
+                    </div>
+                    <div class="info-ruta">
+                        <img src="resources/images/thesis-now-and-then.jpg" />
+                        <h4>Now and then</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+    <footer>
+        <div id="footer-content">
+        <div id="footer-left">
+            Copyright Colmar Academy All rights reserved
+        </div>
+        <div id="footer-right">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+    
 
 </body>
 </html>

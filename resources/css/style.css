@@ -1,15 +1,20 @@
-body {
-    width: 100%;
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif; 
 }
 
-#all-content {
-   
+body {
+    margin: 0;
+    padding: 0;
 }
+
+.center {
+    text-align: center;
+}
+
 
 
 /* Header Section */
-
-
 
 header {
     width: 100%;
@@ -17,42 +22,171 @@ header {
     z-index: 7;
     height: 64px;
     background-color: white;
-    display: inline-flex;
 }
+
+.content {
+    display: flex;
+
+
+}
+
 
 
 #logo-container {
     display: flex;
+    
 }
 
-nav span {
-    display: inline-block;
-    padding: 8px;
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
 }
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+ 
+
 
 /* Main Section */
 
 .main {
-    width: 100%;
+    
     position: relative;
     top: 64px;
     z-index: 1;
+    
 }
 
 #first-container {
     background-color: lightgrey;
-    display: inline-flex;
+    display: flex;
+    padding: 32px 24px;
 }
 
-#first-container img {
+
+#banner-img {
     width: 60%;
-    height: auto;
-    margin: 32px 24px;
 }
 
 #first-container section {
-    margin: 200px 0;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;*/
+    width: 40%;
+    margin: 24px;
+}
+
+#second-container {
+    display: flex;
+    margin: 32px 24px;
+}
+
+#second-container-left {
+    width: 60%;
+}
+
+#second-container-right {
+    margin-left: 40px;
+    width: 40%;
+}
+
+.info-ruta {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.info-ruta h4 {
+    margin: 40px;
+}
+
+.info-ruta img {
+
+}
+
+
+#third-container {
+    background-color: lightgrey;
+    padding-top: 32px;
+}
+
+#third-container h1 {
+    margin-top: 0;
+}
+
+#third-container-inner-divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 32px 72px;
+}
+
+.learning-container {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.learning-container img {
+    padding: 0;
+}
+
+.learning-container span {
+    text-transform: uppercase;
+}
+
+#fourth-container {
+    
+}
+
+#fourth-container-inner {
+    display: flex;
+    margin: 32px 24px;
+    width: 100%;
+}
+
+#fourth-container-left {
+    margin: 24px;
+    width: 50%;
+}
+
+#fourth-container-right {
+    width: 40%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#info-ruta-grey {
+    background-color: lightgrey;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: solid black 1px;
+}
+
+#footer-content {
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer li {
+    padding-left: 2.5rem;
 }
